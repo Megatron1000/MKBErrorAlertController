@@ -1,0 +1,14 @@
+PODS:
+  - MKBErrorAlertController (0.1.0)
+
+DEPENDENCIES:
+  - MKBErrorAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  MKBErrorAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKBErrorAlertController: f80cd2944250245e2151f42be9b511b386a308b4
+
+COCOAPODS: 0.38.2

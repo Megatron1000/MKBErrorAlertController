@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049504D9FB46CCED9D26EDFB0881302B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958B886A1AB385E6B90AFEE5FD797550 /* Foundation.framework */; };
+		2F44F67E2A2B475F6752F83C5430E751 /* Pods-MKBErrorAlertController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AE21BBFAA0B619648CFF41094F3F76 /* Pods-MKBErrorAlertController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70810EE187DEB3FD9C11B248BDB63651 /* MKBErrorAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858AE2FECFD3F026D38820C8447F4A39 /* MKBErrorAlertController-dummy.m */; };
+		752B679CD5125A09FBA3842839478E57 /* MKBErrorAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74A55BC1E74FBF7B97136568F756015C /* MKBErrorAlertController.bundle */; };
+		8CAC7751292F7E4BD07E4614F10CB803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958B886A1AB385E6B90AFEE5FD797550 /* Foundation.framework */; };
+		AAB1C4DEAABB80086C1EAF155DF1CBB7 /* MKBErrorAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D556E1578704A25874960E3F4AF12BF1 /* MKBErrorAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5CBB751B81EFD700442A5A /* UIAlertController+MKBError.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5CBB731B81EFD700442A5A /* UIAlertController+MKBError.h */; };
+		AB5CBB761B81EFD700442A5A /* UIAlertController+MKBError.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5CBB741B81EFD700442A5A /* UIAlertController+MKBError.m */; };
+		C8FBE5AF0900FDA3801521068402A30E /* Pods-MKBErrorAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCABE1A779D37261D18FB89A17B12D0 /* Pods-MKBErrorAlertController_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E753046CEA037148268B45E6E0DA4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE54857431B69E3494A7689C517AA6D3;
+			remoteInfo = MKBErrorAlertController;
+		};
+		CE60310A27DF4BD536E7A855C5039709 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3AE098D9145C53501B58859316B9867;
+			remoteInfo = "MKBErrorAlertController-MKBErrorAlertController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086E3505E24F1989C0BF78C710D56AD4 /* MKBErrorAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MKBErrorAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B08B3196D33FF731157FC600A0ECF01 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2601C52F37A5596BA122B2227470E6F1 /* MKBErrorAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MKBErrorAlertController.modulemap; sourceTree = "<group>"; };
+		39AE21BBFAA0B619648CFF41094F3F76 /* Pods-MKBErrorAlertController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKBErrorAlertController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		41FB876405EDC8294EF0FCA835B8CED6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448077913B7FEE5A7C3BBA677A085F24 /* Pods-MKBErrorAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKBErrorAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MKBErrorAlertController-Private.xcconfig"; sourceTree = "<group>"; };
+		5AD3F5B9BBA064F7B308123444502A46 /* Pods-MKBErrorAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MKBErrorAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		69FBACC71E2E40C3C4F4641AD7D6E162 /* Pods-MKBErrorAlertController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKBErrorAlertController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6F052D573D2AE1A6C25865BFD9ECFABA /* Pods-MKBErrorAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKBErrorAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6FE0F794BE56672F741D679FE30F946F /* MKBErrorAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKBErrorAlertController-prefix.pch"; sourceTree = "<group>"; };
+		74A55BC1E74FBF7B97136568F756015C /* MKBErrorAlertController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKBErrorAlertController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCABE1A779D37261D18FB89A17B12D0 /* Pods-MKBErrorAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKBErrorAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D521E4E63C910BD358CF0A20A62E409 /* MKBErrorAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MKBErrorAlertController.xcconfig; sourceTree = "<group>"; };
+		858AE2FECFD3F026D38820C8447F4A39 /* MKBErrorAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MKBErrorAlertController-dummy.m"; sourceTree = "<group>"; };
+		958B886A1AB385E6B90AFEE5FD797550 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB5CBB731B81EFD700442A5A /* UIAlertController+MKBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+MKBError.h"; sourceTree = "<group>"; };
+		AB5CBB741B81EFD700442A5A /* UIAlertController+MKBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+MKBError.m"; sourceTree = "<group>"; };
+		B5940FE87325EC854634C118E045C066 /* Pods-MKBErrorAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MKBErrorAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1004A861B9008CB1446510FCBB8A3E6 /* Pods-MKBErrorAlertController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MKBErrorAlertController_Tests-resources.sh"; sourceTree = "<group>"; };
+		D556E1578704A25874960E3F4AF12BF1 /* MKBErrorAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MKBErrorAlertController-umbrella.h"; sourceTree = "<group>"; };
+		DB550ED361C11FCEE0C2BC805EA80DD5 /* Pods_MKBErrorAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MKBErrorAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE70CCBBD632E7F7DDBF08893AE16F29 /* Pods-MKBErrorAlertController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MKBErrorAlertController_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D41EECF83B0CAFFFCF1CC941605F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DA5F634042785E37CCC2ACF3CF26982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CAC7751292F7E4BD07E4614F10CB803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D17A1F7B6DAE15279F0246D7D1C876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049504D9FB46CCED9D26EDFB0881302B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				958B886A1AB385E6B90AFEE5FD797550 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DEC3404CD6BCB99E6B48CB6D6F1069E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D6D369BEB7D7A3B0B977D5421930B1B8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7BE3A0E286961677A697A8226F69EDDF /* MKBErrorAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				6DEC3404CD6BCB99E6B48CB6D6F1069E /* Pod */,
+				9ADC2D7E20E66908C48462E45774786D /* Support Files */,
+			);
+			name = MKBErrorAlertController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				FD624D112AB2157288121DA2722834AA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				859CBEF440720AEC1CED372061B3B5DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		859CBEF440720AEC1CED372061B3B5DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AB7B10917CCC690D311C1BFED72AD1 /* Pods-MKBErrorAlertController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9ADC2D7E20E66908C48462E45774786D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B08B3196D33FF731157FC600A0ECF01 /* Info.plist */,
+				2601C52F37A5596BA122B2227470E6F1 /* MKBErrorAlertController.modulemap */,
+				7D521E4E63C910BD358CF0A20A62E409 /* MKBErrorAlertController.xcconfig */,
+				479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */,
+				858AE2FECFD3F026D38820C8447F4A39 /* MKBErrorAlertController-dummy.m */,
+				6FE0F794BE56672F741D679FE30F946F /* MKBErrorAlertController-prefix.pch */,
+				D556E1578704A25874960E3F4AF12BF1 /* MKBErrorAlertController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MKBErrorAlertController";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A55BC1E74FBF7B97136568F756015C /* MKBErrorAlertController.bundle */,
+				086E3505E24F1989C0BF78C710D56AD4 /* MKBErrorAlertController.framework */,
+				DB550ED361C11FCEE0C2BC805EA80DD5 /* Pods_MKBErrorAlertController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AB7B10917CCC690D311C1BFED72AD1 /* Pods-MKBErrorAlertController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				41FB876405EDC8294EF0FCA835B8CED6 /* Info.plist */,
+				DE70CCBBD632E7F7DDBF08893AE16F29 /* Pods-MKBErrorAlertController_Tests.modulemap */,
+				B5940FE87325EC854634C118E045C066 /* Pods-MKBErrorAlertController_Tests-acknowledgements.markdown */,
+				5AD3F5B9BBA064F7B308123444502A46 /* Pods-MKBErrorAlertController_Tests-acknowledgements.plist */,
+				7CCABE1A779D37261D18FB89A17B12D0 /* Pods-MKBErrorAlertController_Tests-dummy.m */,
+				69FBACC71E2E40C3C4F4641AD7D6E162 /* Pods-MKBErrorAlertController_Tests-frameworks.sh */,
+				C1004A861B9008CB1446510FCBB8A3E6 /* Pods-MKBErrorAlertController_Tests-resources.sh */,
+				39AE21BBFAA0B619648CFF41094F3F76 /* Pods-MKBErrorAlertController_Tests-umbrella.h */,
+				448077913B7FEE5A7C3BBA677A085F24 /* Pods-MKBErrorAlertController_Tests.debug.xcconfig */,
+				6F052D573D2AE1A6C25865BFD9ECFABA /* Pods-MKBErrorAlertController_Tests.release.xcconfig */,
+			);
+			name = "Pods-MKBErrorAlertController_Tests";
+			path = "Target Support Files/Pods-MKBErrorAlertController_Tests";
+			sourceTree = "<group>";
+		};
+		D6D369BEB7D7A3B0B977D5421930B1B8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB5CBB731B81EFD700442A5A /* UIAlertController+MKBError.h */,
+				AB5CBB741B81EFD700442A5A /* UIAlertController+MKBError.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD624D112AB2157288121DA2722834AA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BE3A0E286961677A697A8226F69EDDF /* MKBErrorAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03E7D5C2F1FFC5E38BF215A0E71FC3EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB1C4DEAABB80086C1EAF155DF1CBB7 /* MKBErrorAlertController-umbrella.h in Headers */,
+				AB5CBB751B81EFD700442A5A /* UIAlertController+MKBError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D45579D943E3DD2DE36B7AB2563A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F44F67E2A2B475F6752F83C5430E751 /* Pods-MKBErrorAlertController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4400EFD03B100A7B8BACF1D6BD9BEF94 /* Pods-MKBErrorAlertController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A1FFFC5793BF0171696897B4D97DC3 /* Build configuration list for PBXNativeTarget "Pods-MKBErrorAlertController_Tests" */;
+			buildPhases = (
+				C506652CC45BFD88BD5B3113D7749611 /* Sources */,
+				61D17A1F7B6DAE15279F0246D7D1C876 /* Frameworks */,
+				F4D45579D943E3DD2DE36B7AB2563A91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FA876226A8E1BF390D4964ECF947198 /* PBXTargetDependency */,
+			);
+			name = "Pods-MKBErrorAlertController_Tests";
+			productName = "Pods-MKBErrorAlertController_Tests";
+			productReference = DB550ED361C11FCEE0C2BC805EA80DD5 /* Pods_MKBErrorAlertController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3AE098D9145C53501B58859316B9867 /* MKBErrorAlertController-MKBErrorAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA749ADA8D79E92F1ED39C8AB516048 /* Build configuration list for PBXNativeTarget "MKBErrorAlertController-MKBErrorAlertController" */;
+			buildPhases = (
+				52F3F1BD6F6268E7D4D8FDCA32E9238C /* Sources */,
+				47D41EECF83B0CAFFFCF1CC941605F89 /* Frameworks */,
+				199EC2C8566CCEE1FF2B304B3D0697A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKBErrorAlertController-MKBErrorAlertController";
+			productName = "MKBErrorAlertController-MKBErrorAlertController";
+			productReference = 74A55BC1E74FBF7B97136568F756015C /* MKBErrorAlertController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BE54857431B69E3494A7689C517AA6D3 /* MKBErrorAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A1AEAA2880847A8093C9EFFC97BA0 /* Build configuration list for PBXNativeTarget "MKBErrorAlertController" */;
+			buildPhases = (
+				0A7A1BC1EDEC467540EF190164FB8921 /* Sources */,
+				4DA5F634042785E37CCC2ACF3CF26982 /* Frameworks */,
+				DEDA7AD30BC86E1ED6FC4030624A548D /* Resources */,
+				03E7D5C2F1FFC5E38BF215A0E71FC3EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65389AE838DA0C8AD642098280C8C789 /* PBXTargetDependency */,
+			);
+			name = MKBErrorAlertController;
+			productName = MKBErrorAlertController;
+			productReference = 086E3505E24F1989C0BF78C710D56AD4 /* MKBErrorAlertController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE54857431B69E3494A7689C517AA6D3 /* MKBErrorAlertController */,
+				A3AE098D9145C53501B58859316B9867 /* MKBErrorAlertController-MKBErrorAlertController */,
+				4400EFD03B100A7B8BACF1D6BD9BEF94 /* Pods-MKBErrorAlertController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199EC2C8566CCEE1FF2B304B3D0697A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEDA7AD30BC86E1ED6FC4030624A548D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752B679CD5125A09FBA3842839478E57 /* MKBErrorAlertController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7A1BC1EDEC467540EF190164FB8921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5CBB761B81EFD700442A5A /* UIAlertController+MKBError.m in Sources */,
+				70810EE187DEB3FD9C11B248BDB63651 /* MKBErrorAlertController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F3F1BD6F6268E7D4D8FDCA32E9238C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C506652CC45BFD88BD5B3113D7749611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FBE5AF0900FDA3801521068402A30E /* Pods-MKBErrorAlertController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FA876226A8E1BF390D4964ECF947198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKBErrorAlertController;
+			target = BE54857431B69E3494A7689C517AA6D3 /* MKBErrorAlertController */;
+			targetProxy = 0E753046CEA037148268B45E6E0DA4DC /* PBXContainerItemProxy */;
+		};
+		65389AE838DA0C8AD642098280C8C789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MKBErrorAlertController-MKBErrorAlertController";
+			target = A3AE098D9145C53501B58859316B9867 /* MKBErrorAlertController-MKBErrorAlertController */;
+			targetProxy = CE60310A27DF4BD536E7A855C5039709 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09CD09DCF0A01A8930D369A30EED8DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448077913B7FEE5A7C3BBA677A085F24 /* Pods-MKBErrorAlertController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKBErrorAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MKBErrorAlertController_Tests/Pods-MKBErrorAlertController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKBErrorAlertController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30DF3EAD9FF6F8D57601388D64E14011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKBErrorAlertController/MKBErrorAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKBErrorAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKBErrorAlertController/MKBErrorAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MKBErrorAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39BB096EE311567B49EFD3F07BCF927B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MKBErrorAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5E66BBE20485E066D8669F486E77F40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MKBErrorAlertController/MKBErrorAlertController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MKBErrorAlertController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MKBErrorAlertController/MKBErrorAlertController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MKBErrorAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65AA500A1910582D6AB264D318A66302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F052D573D2AE1A6C25865BFD9ECFABA /* Pods-MKBErrorAlertController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MKBErrorAlertController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-MKBErrorAlertController_Tests/Pods-MKBErrorAlertController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MKBErrorAlertController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DE9B5E2B8A41A35C808871B62A51052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479B1447A0E576E3B583E5049572C0E1 /* MKBErrorAlertController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MKBErrorAlertController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A1FFFC5793BF0171696897B4D97DC3 /* Build configuration list for PBXNativeTarget "Pods-MKBErrorAlertController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CD09DCF0A01A8930D369A30EED8DF1 /* Debug */,
+				65AA500A1910582D6AB264D318A66302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A1AEAA2880847A8093C9EFFC97BA0 /* Build configuration list for PBXNativeTarget "MKBErrorAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E66BBE20485E066D8669F486E77F40D /* Debug */,
+				30DF3EAD9FF6F8D57601388D64E14011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA749ADA8D79E92F1ED39C8AB516048 /* Build configuration list for PBXNativeTarget "MKBErrorAlertController-MKBErrorAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE9B5E2B8A41A35C808871B62A51052 /* Debug */,
+				39BB096EE311567B49EFD3F07BCF927B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

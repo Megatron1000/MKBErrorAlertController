@@ -1,0 +1,25 @@
+{
+  "name": "MKBErrorAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of MKBErrorAlertController.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MKBErrorAlertController",
+  "license": "MIT",
+  "authors": {
+    "Mark Bridges": "mark.bridges@sainsburysentertainment.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MKBErrorAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MKBErrorAlertController": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
